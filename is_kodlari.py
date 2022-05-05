@@ -476,7 +476,7 @@ mappings = {
 
 
 
-assistant = GenericAssistant('intentGelistir.json', intent_methods=mappings)
+assistant = GenericAssistant('intents.json', intent_methods=mappings)
 assistant.train_model()
 
 while True:
