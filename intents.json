@@ -1,0 +1,98 @@
+{"intents":[
+    {"tag":"selamlama",
+    "patterns": ["selam", "merhaba", "hey", "sana selam olsun"],
+    "responses": ["merhaba, sana nasıl yardımcı olabilirim"]},
+
+    {"tag":"not_olustur",
+    "patterns":["yeni not", "yeni bir not oluştur", "not et", "not al", "not almak istiyorum", "not almanı istiyorum"],
+    "responses":[""]},
+
+    {"tag":"todo_ekle",
+    "patterns":["yapılacaklar listesi", "yapılacaklar listesine ekle"],
+    "responses":[""]},
+
+    {"tag":"todo_listele",
+    "patterns":["yapılacaklar listesini göster", "yapılacakları göster", "yapılacakları aç", "yapılacakları listele", "yapılacaklar listesini aç"],
+    "responses":[""]},
+
+    {"tag":"vedalasma",
+    "patterns":["görüşürüz", "tamamdır", "çıkış", "bitir", "uygulamadan çık", "hoşçakal", "güle güle", "gitmem lazım"],
+    "responses":[""]},
+
+    {"tag":"saat_kac",
+    "patterns":["saat kaç", "saati söyle"],
+    "responses":[""]},
+
+    {"tag":"wikide_arat",
+    "patterns":["wiki'de arat", "wiki", "wikipedia", "wikipedia'da arat"],
+    "responses":[""]},
+
+    {"tag":"youtube_video_ac",
+    "patterns":["youtube'da arat", "youtube'da bul", "youtube'da izle","youtube"],
+    "responses":[""]},
+
+    {"tag":"googleda_arat",
+    "patterns":["google'da arat", "google'da bul", "google", "google'la", "google amcaya sor"],
+    "responses":[""]},
+    
+    {"tag":"twitter_ac",
+    "patterns":["twitter", "twitter'ı aç", "twitter aç", "aç twitter", "twit"],
+    "responses":[""]},
+
+    {"tag":"github_ac",
+    "patterns":["github", "github'ı aç", "github aç", "aç github"],
+    "responses":[""]},
+
+    {"tag":"uygulama_ac",
+    "patterns":[""],
+    "responses":[""]},
+
+    {"tag":"haftanin_gunu",
+    "patterns":["bugün günlerden ne", "hangi gündeyiz", "haftanın günü"],
+    "responses":[""]},
+
+    {"tag":"tarih",
+    "patterns":["bugünün tarihi ne", "tarih ne", "tarihi söyle"],
+    "responses":[""]},
+
+    {"tag":"hava_durumu",
+    "patterns":["hava durumu", "hava durumu nasıl", "hava nasıl", "bugün hava nasıl", "şemsiye kullanmalı mıyım"],
+    "responses":[""]},
+
+    {"tag":"mail_olustur",
+    "patterns":["mail oluştur", "yeni mail oluştur", "mail yaz", "mail yolla", "mail gönder"],
+    "responses":[""]},
+
+    {"tag":"mail_oku",
+    "patterns":["maili oku", "yeni maili oku", "gelen mailleri oku", "gelen maili oku", "yeni mailleri oku"],
+    "responses":[""]},
+
+    {"tag":"klasor_ac",
+    "patterns":["klasör aç", "klasörü aç"],
+    "responses":[""]},
+
+    {"tag":"klasor_olustur",
+    "patterns":["klasör oluştur", "yeni bir klasör oluştur"],
+    "responses":[""]},
+
+    {"tag":"sistem_kapat",
+    "patterns":["sistemi kapat", "sistem kapansın", "bilgisayarı kapat", "bilgisayar kapansın"],
+    "responses":[""]},
+
+    {"tag":"alarm_olustur",
+    "patterns":["alarm oluştur", "yeni alarm", "alarm kur"],
+    "responses":[""]},
+
+    {"tag":"alarm_listele",
+    "patterns":["alarmları göster", "alarmaları listele", "alarm listesi"],
+    "responses":[""]},
+
+    {"tag":"antivirus",
+    "patterns":["tarama başlat", "antivirüs", "windows defender", "bilgisayarı tara", "tara", "virüs bul"],
+    "responses":[""]},
+
+    {"tag":"ekranı_kilitle",
+    "patterns":[""],
+    "responses":[""]}
+
+]}
