@@ -81,9 +81,9 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Lora", "Lora"))
         Dialog.setFixedSize(491, 781)
-        self.label.setText(_translate("Dialog", "Merhaba"))
-        self.label_2.setText(_translate("Dialog", "Sana nasıl yardımcı olabilirim?"))
-        self.lineEdit.setPlaceholderText(_translate("Dialog", "Lora\'ya Yaz"))
+        self.label.setText(_translate("Dialog", "Hello"))
+        self.label_2.setText(_translate("Dialog", "How can I help you?"))
+        self.lineEdit.setPlaceholderText(_translate("Dialog", "Text to Lora"))
 
 
 if __name__ == "__main__":
