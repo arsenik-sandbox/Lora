@@ -65,7 +65,6 @@ class Ui_guigui(object):
         guigui.setWindowTitle(_translate("guigui", "guigui"))
         self.pushButton.setText(_translate("guigui", "Send"))
         self.label.setText(_translate("guigui", "Chatting Application"))
-        self.label_2.setText(_translate("guigui", "By Arvendra Chhonkar"))
 
 
 if __name__ == "__main__":
