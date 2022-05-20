@@ -94,13 +94,13 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.pushButton.setText(_translate("Dialog", "Kayıt Ol"))
-        self.label.setText(_translate("Dialog", "Hesabın"))
-        self.label_3.setText(_translate("Dialog", "İsim"))
-        self.label_4.setText(_translate("Dialog", "Soyisim"))
-        self.label_5.setText(_translate("Dialog", "Doğum Tarihi"))
-        self.radioButton.setText(_translate("Dialog", "Kadın"))
-        self.radioButton_2.setText(_translate("Dialog", "Erkek"))
+        self.pushButton.setText(_translate("Dialog", "Sign Up"))
+        self.label.setText(_translate("Dialog", "Your Account"))
+        self.label_3.setText(_translate("Dialog", "NAme"))
+        self.label_4.setText(_translate("Dialog", "Last Name"))
+        self.label_5.setText(_translate("Dialog", "Birth Day"))
+        self.radioButton.setText(_translate("Dialog", "Female"))
+        self.radioButton_2.setText(_translate("Dialog", "Male"))
 
 
 if __name__ == "__main__":
