@@ -52,7 +52,7 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.label.setText(_translate("Dialog", "Lora"))
-        self.label_2.setText(_translate("Dialog", "Ne bilmek istersin?"))
+        self.label_2.setText(_translate("Dialog", "What do you want to know?"))
         self.pushButton.setText(_translate("Dialog", "↑"))
 
 
