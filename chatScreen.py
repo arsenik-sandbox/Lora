@@ -50,9 +50,10 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Lora", "Lora"))
+        Dialog.setFixedSize(491, 781)
         self.label.setText(_translate("Dialog", "Lora"))
-        self.label_2.setText(_translate("Dialog", "What do you want to know?"))
+        self.label_2.setText(_translate("Dialog", "Ne bilmek istersin?"))
         self.pushButton.setText(_translate("Dialog", "↑"))
 
 
@@ -60,6 +61,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
+    Dialog.setWindowIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\voiceAssistant\\icon\\lora.ico'))
     ui = Ui_Dialog()
     ui.setupUi(Dialog)
     Dialog.show()
