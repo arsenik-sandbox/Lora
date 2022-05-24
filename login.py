@@ -75,10 +75,11 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.pushButton.setText(_translate("Dialog", "Sign In"))
-        self.label.setText(_translate("Dialog", "Sign In"))
-        self.label_2.setText(_translate("Dialog", "Sign In To Your Account"))
+        Dialog.setWindowTitle(_translate("Lora", "Lora"))
+        Dialog.setFixedSize(491, 781)
+        self.pushButton.setText(_translate("Dialog", "Login"))
+        self.label.setText(_translate("Dialog", "Login"))
+        self.label_2.setText(_translate("Dialog", "Login Your Account"))
         self.label_3.setText(_translate("Dialog", "E-mail"))
         self.label_4.setText(_translate("Dialog", "Password"))
 
@@ -87,6 +88,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
+    Dialog.setWindowIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\lora.ico'))
     ui = Ui_Dialog()
     ui.setupUi(Dialog)
     Dialog.show()
