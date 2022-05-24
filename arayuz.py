@@ -38,14 +38,16 @@ class Ui_Dialog(object):
 "}")
         self.pushButton.setText("")
         self.pushButton.setObjectName("pushButton")
-        self.pushButton.setIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\voiceAssistant\\icon\\mic.ico'))
+        self.pushButton.setIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\mic.ico'))
         self.pushButton.setIconSize(QtCore.QSize(75,75))
         self.label = QtWidgets.QLabel(self.bgwidget)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setGeometry(QtCore.QRect(140, 70, 241, 81))
         self.label.setStyleSheet("font: 36pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 255, 255);")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.bgwidget)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setGeometry(QtCore.QRect(80, 160, 361, 31))
         self.label_2.setStyleSheet("font: 16pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 255, 255);")
@@ -90,7 +92,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
-    Dialog.setWindowIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\voiceAssistant\\icon\\lora.ico'))
+    Dialog.setWindowIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\lora.ico'))
     ui = Ui_Dialog()    
     ui.setupUi(Dialog)
     Dialog.show()
