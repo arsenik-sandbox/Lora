@@ -27,7 +27,7 @@ class Ui_Dialog(object):
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(self.bgwidget)
         self.label.setGeometry(QtCore.QRect(130, 70, 241, 81))
-        self.label.setStyleSheet("font: 36pt \"MS Shell Dlg 2\";\n"
+        self.label.setStyleSheet("font: 24pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 255, 255);")
         self.label.setObjectName("label")
         self.line = QtWidgets.QFrame(self.bgwidget)
@@ -93,12 +93,13 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Lora", "Lora"))
+        Dialog.setFixedSize(491, 781)
         self.pushButton.setText(_translate("Dialog", "Sign Up"))
         self.label.setText(_translate("Dialog", "Your Account"))
-        self.label_3.setText(_translate("Dialog", "NAme"))
+        self.label_3.setText(_translate("Dialog", "First Name"))
         self.label_4.setText(_translate("Dialog", "Last Name"))
-        self.label_5.setText(_translate("Dialog", "Birth Day"))
+        self.label_5.setText(_translate("Dialog", "Birthday"))
         self.radioButton.setText(_translate("Dialog", "Female"))
         self.radioButton_2.setText(_translate("Dialog", "Male"))
 
@@ -107,6 +108,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
+    Dialog.setWindowIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\lora.ico'))
     ui = Ui_Dialog()
     ui.setupUi(Dialog)
     Dialog.show()
