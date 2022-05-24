@@ -27,10 +27,12 @@ class Ui_Dialog(object):
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(self.bgwidget)
         self.label.setGeometry(QtCore.QRect(130, 70, 231, 81))
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setStyleSheet("font: 36pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 255, 255);")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.bgwidget)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setGeometry(QtCore.QRect(110, 180, 281, 31))
         self.label_2.setStyleSheet("font: 16pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 255, 255);")
@@ -64,10 +66,11 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
-        self.pushButton.setText(_translate("Dialog", "Sign In"))
+        Dialog.setWindowTitle(_translate("Lora", "Lora"))
+        Dialog.setFixedSize(491, 781)
+        self.pushButton.setText(_translate("Dialog", "Login"))
         self.label.setText(_translate("Dialog", "Hello"))
-        self.label_2.setText(_translate("Dialog", "Sign In or Sign Up"))
+        self.label_2.setText(_translate("Dialog", "Login or Sign Up"))
         self.pushButton_2.setText(_translate("Dialog", "Create An Account"))
 
 
@@ -75,6 +78,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
+    Dialog.setWindowIcon(QtGui.QIcon('C:\\Users\\OUTLIER\\Desktop\\lora.ico'))
     ui = Ui_Dialog()
     ui.setupUi(Dialog)
     Dialog.show()
